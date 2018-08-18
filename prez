@@ -1,0 +1,14 @@
+Parallellism-
+=============
+Good thing is we don't have to change the query. Upgrade your instance and we can exploit this capability 
+You will never get CPU faster.. Only way is to break tasks into smaller tasks for go faster - Mechansim to make Postgres faster - 
+Parallel queries, sharding 
+Matrix on the capability 9.6 
+===========================
+Postgres 10 some things more than Postgres 6
+
+Sequentail scan - read the data sequentailly from beginning to end. These can be done in parallel from 9.6. Four process to read 25% of data
+each 
+B-Tree Index - 
+Bitmap index scan - alternate way of B-tree index. 
+
