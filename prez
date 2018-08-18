@@ -1,5 +1,9 @@
 Parallellism-
 =============
+https://2017.pgday.it/en/schedule/#session-008
+
+This feature is still being developed, and new capabilities will be added in the next releases. Nevertheless, the current implementation 
+is already rather useful, 
 Good thing is we don't have to change the query. Upgrade your instance and we can exploit this capability 
 You will never get CPU faster.. Only way is to break tasks into smaller tasks for go faster - Mechansim to make Postgres faster - 
 Parallel queries, sharding 
@@ -11,4 +15,11 @@ Sequentail scan - read the data sequentailly from beginning to end. These can be
 each 
 B-Tree Index - 
 Bitmap index scan - alternate way of B-tree index. 
+Hash join - to join two tables..one of te techniqueues used for join. for bigger tables 
+nestd loop join - one loop in another loop
+Aggregation - is a common operation.. select count(*), average is a way of aggregation.. 
+Gether Merge - 
+PL - SQL is a declarative language.. ask questions and don't expect answers as we expect 
+Proceduraal language - go to that file, open it , do process 
+Pl/pgSQL - better parallel queries in v10
 
