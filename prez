@@ -1,6 +1,7 @@
 Parallellism-
 =============
 https://2017.pgday.it/en/schedule/#session-008
+2017 pgday - Parallel query with postgresql
 
 This feature is still being developed, and new capabilities will be added in the next releases. Nevertheless, the current implementation 
 is already rather useful, 
@@ -22,4 +23,12 @@ Gether Merge -
 PL - SQL is a declarative language.. ask questions and don't expect answers as we expect 
 Proceduraal language - go to that file, open it , do process 
 Pl/pgSQL - better parallel queries in v10
+
+Gather - parallel to non-parallel - for ouput. 
+parallel query only has 1 gather node
+My suggestion -
+=============
+pgbench - scale factor - 50 ... 
+too much parallelsim is also not good - too much I/O and memory consumption
+play with these factors
 
