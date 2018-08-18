@@ -4,13 +4,22 @@ https://2017.pgday.it/en/schedule/#session-008
 2017 pgday - Parallel query with postgresql
 
 This feature is still being developed, and new capabilities will be added in the next releases. Nevertheless, the current implementation 
-is already rather useful, 
+is already rather useful, Parallelsim is activated by default - 2 max and 8 overoll. If you have Postgres out of box, large tables in Production
+we need to tune the workload and depending on the number of cores
+
+PostgreSQL can automatically make a query parallel.. Depends on the version of the postgres, parallelism mileage may vary. 
+
 Good thing is we don't have to change the query. Upgrade your instance and we can exploit this capability 
-You will never get CPU faster.. Only way is to break tasks into smaller tasks for go faster - Mechansim to make Postgres faster - 
-Parallel queries, sharding 
+
+Remember the times CPU was slower - 16 MGHZ... GHZ... now i have the same GB which i  are still 10 year.. speed of light can't beyond that what we
+have at the moment... 3GHZ...every CPU cyle of light travels for 10 cms.. There are not many ways to send the signals more than 10 cm away. CPU is 
+You will never get CPU faster in one process.. THe future-Only way is to break it into smaller tasks for go faster and do them at same time - 
+Mechansim to make Postgres faster - 
+Parallel queries, sharding .. to make your workload faster...
+
 Matrix on the capability 9.6 
 ===========================
-Postgres 10 some things more than Postgres 6
+Postgres 10 some things more than Postgres 9 - some operations in 9.6, some more in 10.. 
 
 Sequentail scan - read the data sequentailly from beginning to end. These can be done in parallel from 9.6. Four process to read 25% of data
 each 
@@ -31,4 +40,7 @@ My suggestion -
 pgbench - scale factor - 50 ... 
 too much parallelsim is also not good - too much I/O and memory consumption
 play with these factors
+
+
+
 
